@@ -6,11 +6,13 @@
 /*
 function creatLink($href, $text)
 {
-    
+if ((!isset($_GET['page']) and $href == '/') or (!isset($_GET['page']) and $_GET['page'] == $href)){
+
+}
 }
 
+
+
+
 */
-
-
-
 ?>
